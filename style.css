@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.accordion {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.accordion-item {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.accordion-header {
+    padding: 15px;
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-header:hover {
+    background: #2980b9;
+}
+
+.accordion-content {
+    height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+    background: #fafafa;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+}
+
+.icon {
+    font-size: 20px;
+    font-weight: bold;
+}
